@@ -1,0 +1,66 @@
+$primary-color: #009999;
+$secondary-color: #1D7373;
+$tertiary-color: #006363;
+$quaternary-color: #33CCCC;
+$quinary-color: #5CCCCC;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.header {
+  background-color: $secondary-color;
+  padding: 10px;
+
+  &__title {
+    margin: 0;
+  }
+
+  &__nav {
+    margin: 10px 0;
+
+    &__list {
+      list-style: none;
+      padding: 0;
+
+      &__item {
+        display: inline;
+        margin-right: 10px;
+
+        &__link {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.main {
+  padding: 20px;
+
+  &__title {
+    color: $quaternary-color;
+  }
+
+  &__text {
+    margin: 10px 0;
+  }
+
+  &__link {
+    color: $quinary-color;
+    text-decoration: underline;
+  }
+}
+
+.footer {
+  background-color: $tertiary-color;
+  text-align: center;
+  padding: 10px 0;
+
+  &__text {
+    margin: 0;
+  }
+}
